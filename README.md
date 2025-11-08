@@ -50,3 +50,11 @@ BASE_PROJECTS_PATH=C:/_projects
 ```bash
 npm start
 ```
+
+## Usage
+
+- Open the Dev Dashboard app.
+- Each project will show its name, path, and start/stop buttons.
+- Click Start to run the project; logs will appear in the console area.
+- Click Stop to terminate the process.
+- Green dot (🟢) indicates running, red dot (🔴) indicates stopped.
