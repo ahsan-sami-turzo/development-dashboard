@@ -10,9 +10,43 @@ The Dev Service Dashboard is an Electron-based desktop application designed to m
 - Configurable projects stored in `config/projects.json`.
 - Cross-platform support via Electron.
 
+<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/29c39bd2-e1cd-4bb7-8325-010971a1d966" />
+
+
 ## Installation
 
 1. **Clone the repository**
 ```bash
 git clone <your-repo-url>
 cd dev-dashboard
+```
+
+2. ** Install dependencies
+```bash
+npm install
+```
+
+3. ** Configure environment variables: Create a .env file in the root directory
+```bash
+NODE_ENV=development
+BASE_PROJECTS_PATH=C:/_projects
+```
+
+4. ** Configure projects: Edit config/projects.json to add your projects:
+```bash
+{
+  "projects": [
+    {
+      "name": "Project Name",
+      "cwd": "${BASE_PROJECTS_PATH}/project-ui",
+      "cmd": "npm run dev",
+      "env": "DEV"
+    }
+  ]
+}
+```
+
+5. ** Run in development mode
+```bash
+npm start
+```
