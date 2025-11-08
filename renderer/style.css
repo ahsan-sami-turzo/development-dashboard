@@ -1,0 +1,63 @@
+body {
+    font-family: system-ui, sans-serif;
+    background: #1e1e1e;
+    color: #ddd;
+    margin: 20px;
+}
+
+.service {
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: #252525;
+}
+
+.buttons {
+    margin-top: 5px;
+}
+
+button {
+    background: #3a3a3a;
+    border: none;
+    padding: 6px 10px;
+    color: white;
+    margin-right: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+.log {
+    background: #000;
+    color: #0f0;
+    font-family: monospace;
+    height: 150px;
+    overflow-y: auto;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.status-dot {
+  font-size: 1.2rem;
+  margin-right: 8px;
+}
+
+button.start {
+  background: #1b7e1b;
+}
+
+button.stop {
+  background: #a11;
+}
+
+button.start:hover {
+  background: #28a428;
+}
+
+button.stop:hover {
+  background: #d22;
+}

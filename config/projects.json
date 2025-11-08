@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "name": "Turzone Kanban API",
+      "cwd": "${BASE_PROJECTS_PATH}/turzone-kanban/backend",
+      "cmd": "go run main.go",
+      "env": "DEV"
+    },
+    {
+      "name": "Turzone Kanban UI",
+      "cwd": "${BASE_PROJECTS_PATH}/turzone-kanban/frontend-svelte",
+      "cmd": "npm run dev",
+      "env": "DEV"
+    }
+  ]
+}
